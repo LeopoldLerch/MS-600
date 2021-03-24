@@ -2,6 +2,14 @@
 
 [Overview of the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview)
 
+[PnP SPFx Yeoman generator](https://pnp.github.io/generator-spfx/)
+
+[Reusable React controls for your SharePoint Framework](https://pnp.github.io/sp-dev-fx-controls-react/)
+
+[Reusable property pane controls for the SharePoint Framework](https://pnp.github.io/sp-dev-fx-property-controls/)
+
+[CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/)
+
 [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide#CDNAssets)
 
 ## Environment Setup

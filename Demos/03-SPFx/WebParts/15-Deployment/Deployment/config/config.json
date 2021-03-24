@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "deployment-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/deploymentWp/DeploymentWpWebPart.js",
+          "manifest": "./src/webparts/deploymentWp/DeploymentWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DeploymentWpWebPartStrings": "lib/webparts/deploymentWp/loc/{locale}.js"
+  }
+}

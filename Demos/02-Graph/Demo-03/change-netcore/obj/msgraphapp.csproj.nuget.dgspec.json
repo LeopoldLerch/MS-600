@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-06\\change-netcore\\msgraphapp.csproj": {}
+    "h:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-03\\change-netcore\\msgraphapp.csproj": {}
   },
   "projects": {
-    "H:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-06\\change-netcore\\msgraphapp.csproj": {
+    "h:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-03\\change-netcore\\msgraphapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-06\\change-netcore\\msgraphapp.csproj",
+        "projectUniqueName": "h:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-03\\change-netcore\\msgraphapp.csproj",
         "projectName": "msgraphapp",
-        "projectPath": "H:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-06\\change-netcore\\msgraphapp.csproj",
+        "projectPath": "h:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-03\\change-netcore\\msgraphapp.csproj",
         "packagesPath": "C:\\Users\\AlexanderPajer\\.nuget\\packages\\",
-        "outputPath": "H:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-06\\change-netcore\\obj\\",
+        "outputPath": "h:\\Classes\\Ms-600\\Demos\\02-Graph\\Demo-03\\change-netcore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

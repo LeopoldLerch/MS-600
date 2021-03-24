@@ -1,3 +1,7 @@
-# Links & Ressources
+# SPFx Teams Tab
 
-[App Studio for Teams Getting Started](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio)
+- `gulp bundle --ship`
+- `gulp package-solution --ship`
+- Add to App Catalog - Sync to Teams
+
+![sync-teams.png](_images/sync-teams.png)

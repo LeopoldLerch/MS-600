@@ -1,8 +1,8 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
   "manifestVersion": "1.7",
-  "id": "88a1eb83-b5e4-4ab1-bbf7-d42615dc782d",
-  "version": "1.0.0",
+  "id": "c9e70817-9a94-4b69-9736-360d826c44b1",
+  "version": "1.0.1",
   "packageName": "{{PACKAGE_NAME}}",
   "developer": {
     "name": "Alexander Pajer",
@@ -15,8 +15,8 @@
     "full": "Planet Messaging"
   },
   "description": {
-    "short": "TODO: add short description here",
-    "full": "TODO: add full description here"
+    "short": "A sample messaging extension",
+    "full": "A sample messaging extension about planets"
   },
   "icons": {
     "outline": "icon-outline.png",
@@ -29,7 +29,7 @@
   "connectors": [],
   "composeExtensions": [
     {
-      "botId": "88a1eb83-b5e4-4ab1-bbf7-d42615dc782d",
+      "botId": "c9e70817-9a94-4b69-9736-360d826c44b1",
       "canUpdateConfiguration": false,
       "commands": [
         {

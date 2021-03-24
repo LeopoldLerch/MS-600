@@ -9,6 +9,7 @@ import { find, sortBy } from "lodash";
  */
 @OutgoingWebhookDeclaration("/api/webhook")
 export class OutgoingWebhook implements IOutgoingWebhook {
+  //gets the adaptive card
   private static getPlanetDetailCard(selectedPlanet: any): builder.Attachment {
     // load display card
     const adaptiveCardSource: any = require("./planetDisplayCard.json");
@@ -38,6 +39,7 @@ export class OutgoingWebhook implements IOutgoingWebhook {
     return builder.CardFactory.adaptiveCard(adaptiveCardSource);
   }
 
+  // takes incoming request and uses json to find requested planet an passes metadata to card
   private static processAuthenticatedRequest(incomingText: string): Partial<builder.Activity> {
     const message: Partial<builder.Activity> = {
       type: builder.ActivityTypes.Message,
@@ -60,6 +62,7 @@ export class OutgoingWebhook implements IOutgoingWebhook {
     return message;
   }
 
+  // cleanes the incoming message
   private static scrubMessage(incomingText: string): string {
     const cleanMessage = incomingText.slice(incomingText.lastIndexOf(">") + 1, incomingText.length).replace("&nbsp;", "");
     return cleanMessage;

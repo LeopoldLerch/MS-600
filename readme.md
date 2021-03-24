@@ -7,6 +7,7 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
   - [Git & GitHub Basics](./Tooling/01-Github)
   - [Visual Studio Code Intro](./Tooling/02-VSCode)
   - [Document Repos using Markdown](./Tooling/03-Markdown)
+  - [Using Azure CLI](./Tooling/04-CLI)
 - [Instructor Demos](./Demos)
 - [Guided Scripts to setup an Azure hosted Development & Lab VM](./Setup)
   - [Base Dev Environment Setup inkluding Visual Studio Code Extensions](./Setup/#basics)

@@ -5,17 +5,13 @@ async function doAuth() {
   const config = {
     auth: {
       clientId: "eeb155cb-d4c6-4864-9184-cf10a6e02715",
-      authority:
-        "https://login.microsoftonline.com/d92b247e-90e0-4469-a129-6a32866c0d0a/",
+      authority: "https://login.microsoftonline.com/d92b247e-90e0-4469-a129-6a32866c0d0a/",
       redirectUri: "http://localhost:8080",
     },
   };
 
   //Creadte MSAL App with Scope to read User Profile
   const client = new Msal.UserAgentApplication(config);
-  const scopes = {
-    scopes: ["user.read"],
-  };
 
   //Login -> Get ID Token
   const loginResponse = await client
@@ -33,6 +29,10 @@ async function doAuth() {
     });
 
   //Get AccessToken
+  const scopes = {
+    scopes: ["user.read"],
+  };
+
   const tokenResponse = await client.acquireTokenSilent(scopes);
 
   console.log("Token Response", tokenResponse);

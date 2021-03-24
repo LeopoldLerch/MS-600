@@ -37,7 +37,7 @@ namespace GraphConsole
             Console.WriteLine("File uploaded to: " + uploadedFile.WebUrl);
 
             //Upload large file
-            var largeFile = "largefile.zip";
+            var largeFile = "dogs.zip";
             var largePath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), largeFile);
             Console.WriteLine("Uploading file: " + largeFile);
 

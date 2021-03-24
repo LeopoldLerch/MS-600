@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "deployment-client-side-solution",
+    "id": "e059544a-0295-452f-88f2-be3123bdcb02",
+    "version": "1.1.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "skipFeatureDeployment": false,
+    "features": [
+      {
+        "title": "Asset Deployment Demo",
+        "description": "Asset Deployment Demo",
+        "id": "d46cd9d6-87fc-473b-a4c0-db9ad9162b64",
+        "version": "1.1.0.1",
+        "assets": {
+          "elementManifests": ["elements.xml"],
+          "elementFiles": ["schema.xml"]
+        }
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/deployment.sppkg"
+  }
+}

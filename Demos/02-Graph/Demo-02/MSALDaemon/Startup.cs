@@ -16,6 +16,7 @@ namespace MSALDaemon
         private readonly IWebHostEnvironment env;
         private readonly IConfiguration config;
 
+        //args are dependency injection
         public Startup(IWebHostEnvironment environment, IConfiguration configuration)
         {
             this.env = environment;

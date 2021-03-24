@@ -2,12 +2,16 @@
 
 ## Demos
 
-- Getting Started
+- Getting Started & Setup
 - Personal- & Configurable Tabs
 - TaskModules & Adaptive Cards
-- Webhooks
-- Msg Extensions
+- Outgoing- and Incoming-Webhooks
+- Message Extensions Extensions
 - Bots
+
+## Setup Environment
+
+[Setup Teams Dev Environment](https://docs.microsoft.com/en-us/microsoftteams/platform/build-your-first-app/build-first-app-overview#get-prerequisites)
 
 ## Readings
 
@@ -22,3 +26,5 @@
 ## Tools & Extensions
 
 [Microsoft Teams Toolkit VS Code Extension](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension)
+
+[Microsoft Teams Manifest Editor Online](https://dev.teams.microsoft.com/appconfiguration.html)
