@@ -6,7 +6,7 @@ export interface HelloProps {}
 export class Hello extends React.Component<HelloProps, any> {
   user = {
     firstName: "SPFx",
-    lastName: "Developer",
+    lastName: "Developer"
   };
 
   render() {
@@ -18,6 +18,6 @@ export class Hello extends React.Component<HelloProps, any> {
   }
 
   formatName(user: any) {
-    return `${user.firstName} ${user.lastName}`;
+    return user.firstName + " " + user.lastName;
   }
 }

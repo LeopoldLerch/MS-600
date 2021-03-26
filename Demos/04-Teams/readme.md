@@ -15,6 +15,10 @@
 
 ## Readings
 
+[Teams Dev Center](https://dev.teams.microsoft.com/)
+
+[Microsoft Teams Dev Center Reference](https://docs.microsoft.com/en-us/microsoftteams/platform/overview)
+
 [Teams Developer Reference](https://docs.microsoft.com/en-us/microsoftteams/platform/overview)
 
 [Teams Client SDK](https://docs.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/using-teams-client-sdk)
@@ -22,6 +26,10 @@
 [Microsoft Teams JavaScript client SDK](https://docs.microsoft.com/en-us/javascript/api/overview/msteams-client?view=msteams-client-js-latest)
 
 [Single Sign-On for Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/authentication/auth-aad-sso)
+
+[Teams Samples](https://github.com/OfficeDev/Microsoft-Teams-Samples)
+
+[fluentui/react-northstar](https://fluentsite.z22.web.core.windows.net/)
 
 ## Tools & Extensions
 

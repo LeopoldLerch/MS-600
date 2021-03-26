@@ -1,5 +1,7 @@
 # Exercise 4: Creating webhooks in Microsoft Teams
 
+>Note: Alternative Lab: [Connect web services to Microsoft Teams with webhooks and Office 365 Connectors](https://docs.microsoft.com/en-us/learn/modules/msteams-webhooks-connectors/)
+
 Webhooks can be used to connect web services to channels and teams in Teams.
 
 You can create two types of webhooks—**incoming** and **outgoing**. Incoming webhooks allow you to connect a channel to a service and outgoing webhooks allow you to send messages to a service.

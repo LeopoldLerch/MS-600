@@ -12,7 +12,7 @@ import SkillsReactV2 from "./components/SkillsReactV2";
 import { ISkillsReactV2Props } from "./components/ISkillsReactV2Props";
 
 import { SPHttpClient } from "@microsoft/sp-http";
-import { Skill } from "./components/skill.model";
+import { Skill } from "./components/skill";
 
 export interface ISkillsReactV2WebPartProps {
   description: string;
@@ -31,7 +31,7 @@ export default class SkillsReactV2WebPart extends BaseClientSideWebPart<
         SkillsReactV2,
         {
           skills: data,
-          context: this.context,
+          context: this.context
         }
       );
       ReactDom.render(element, this.domElement);

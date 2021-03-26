@@ -76,12 +76,6 @@ export default class IsActiveToggleFieldCustomizer extends BaseFieldCustomizer<I
 
     let etag: string = undefined;
 
-    // sp.web.lists.getByTitle(this.context.pageContext.list.title).items.getById(parseInt(id)).get(undefined, {
-    //   headers: {
-    //     'Accept': 'application/json;odata=minimalmetadata'
-    //   }
-    // })
-
     sp.web.lists
       .getByTitle(this.context.pageContext.list.title)
       .items.getById(parseInt(id))

@@ -1,6 +1,6 @@
 import * as React from "react";
 import styles from "./Skills.module.scss";
-import { Skill } from "../skill.model";
+import { Skill } from "../skill";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
 import { SPHttpClient } from "@microsoft/sp-http";
 
@@ -67,12 +67,7 @@ export class Skills extends React.Component<SkillProps, SkillState> {
       Math,
       this.state.skills.map((item) => item.Id + 1)
     );
-    const param = {
-      Id: newid,
-      Title: this.state.addSkill,
-      Hours: 3,
-      Completed: false,
-    };
+    const param = { Id: newid, Title: this.state.addSkill };
 
     this.addSkillToSP(param).then((resp) => {
       console.log(resp);
@@ -101,9 +96,9 @@ export class Skills extends React.Component<SkillProps, SkillState> {
 
   private removeSkill(skill: Skill): void {
     this.removeSkillFromSP(skill).then(() => {
-      let newskills = this.state.skills.filter((i: Skill) => i !== skill);
+      let arrSkills = this.state.skills.filter((sk: Skill) => sk !== skill);
       this.setState({
-        skills: newskills,
+        skills: arrSkills,
       });
     });
   }

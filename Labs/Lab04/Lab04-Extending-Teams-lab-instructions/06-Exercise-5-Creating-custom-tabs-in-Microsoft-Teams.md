@@ -1,5 +1,7 @@
 ﻿# Exercise 5: Creating custom tabs in Microsoft Teams
 
+>Note: Alternative Lab: [Connect web services to Microsoft Teams with webhooks and Office 365 Connectors](https://docs.microsoft.com/en-us/learn/modules/msteams-webhooks-connectors/)
+
 ## Task 1: Create a personal tab
 
 This task explains how to use Visual Studio Code and App Studio to create a personal tab. For this task, you are going to modify the app you created in the first exercise.
@@ -243,3 +245,4 @@ In this exercise, you:
   
   - Installed and tested the tab.
   
+  >Note: Additional Labs: [Create embedded web experiences with tabs for Microsoft Teams](https://docs.microsoft.com/en-us/learn/modules/embedded-web-experiences/)

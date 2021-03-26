@@ -10,7 +10,7 @@ Scaffolding:
 yo office --projectType react --name "wordaddin-react" --host word --ts true
 ```
 
-Execurting:
+Run Demo:
 
 ```
 npm start

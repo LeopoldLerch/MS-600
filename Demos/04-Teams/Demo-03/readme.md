@@ -1,8 +1,12 @@
 # Task Modules
 
-[Task Modules](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-task-modules)
+[What are task modules](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-task-modules)
 
-[Adaptive Cards](https://docs.microsoft.com/en-us/adaptive-cards/)
+[Adaptive Cards Documentation](https://docs.microsoft.com/en-us/adaptive-cards/)
+
+[Adaptive Card Designer](https://adaptivecards.io/designer/)
+
+[Adaptive Card Schema Explorer](https://adaptivecards.io/explorer/)
 
 ## Demo
 

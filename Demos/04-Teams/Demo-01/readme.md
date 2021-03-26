@@ -50,12 +50,27 @@ gulp ngrok-serve
 
 Replace `gulp ngrok-serve` with:
 
+To start the ngrok tunnel:
+
 ```
 gulp start-ngrok (from within a Teams proj)
 ```
 
+To start the app [after update]:
+
 ```
+gulp manifest
 gulp serve --debug
 ```
 
 ![ngrok](_images/ngrok.jpg)
+
+### Enable Upload of custom apps in tenant
+
+Go to teams admin:
+
+![setup-pol](_images/setup-pol.jpg)
+
+Enable upload of custom apps:
+
+![enable-upload](_images/enable-upload.jpg)
